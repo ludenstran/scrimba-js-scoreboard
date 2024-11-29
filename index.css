@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #1B244A;
+    text-align: center;
+    padding: 40px;
+    row-gap: 30px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.game-board{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    color: white;
+    margin: 0px 80px;
+}
+
+.score-board{
+    display: flex;
+    width: 40px;
+    justify-content: center;
+    padding: 50px 80px;
+    background-color: black;
+    color: white;
+    font-size: 80px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.add-point-button {
+    padding: 16px;
+    background-color: #1B244A;
+    border: 1px solid white;
+    color: #fff;
+    margin: 0px 4px;
+    border-radius: 4px;
+}
+
+.new-game-btn{
+    width: fit-content;
+    padding: 16px 24px;
+}
