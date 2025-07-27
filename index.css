@@ -29,6 +29,7 @@ body {
 
 .score-board{
     display: flex;
+    width: 60px;
     justify-content: center;
     padding: 50px 80px;
     background-color: black;
