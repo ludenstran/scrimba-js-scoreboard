@@ -1,27 +1,30 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class ="game-board">
-                <div class="team-board">
-                    <h3>HOME</h3>
-                    <div id="home-score" class="score-board">0</div>
-                    <button class="add-point-button" onclick="addOnePointHome()">+1</button>
-                    <button class="add-point-button" onclick="addTwoPointHome()">+2</button>
-                    <button class="add-point-button" onclick="addThreePointHome()">+3</button>
-                </div>
-                <div class="team-board">
-                    <h3>GUEST</h3>
-                    <div id="guest-score" class="score-board">0</div>
-                    <button class="add-point-button" onclick="addOnePointGuest()">+1</button>
-                    <button class="add-point-button" onclick="addTwoPointGuest()">+2</button>
-                    <button class="add-point-button" onclick="addThreePointGuest()">+3</button>
-                </div>
+
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="game-board">
+            <div class="team-board">
+                <h3>HOME</h3>
+                <div id="home-score" class="score-board">0</div>
+                <button class="add-point-button" onclick="addOnePointHome()">+1</button>
+                <button class="add-point-button" onclick="addTwoPointHome()">+2</button>
+                <button class="add-point-button" onclick="addThreePointHome()">+3</button>
             </div>
-            <button class="new-game-btn" onclick="resetGame()">New game</button>
+            <div class="team-board">
+                <h3>GUEST</h3>
+                <div id="guest-score" class="score-board">0</div>
+                <button class="add-point-button" onclick="addOnePointGuest()">+1</button>
+                <button class="add-point-button" onclick="addTwoPointGuest()">+2</button>
+                <button class="add-point-button" onclick="addThreePointGuest()">+3</button>
+            </div>
         </div>
-        <script src="index.js"></script>
-    </body>
+        <button class="new-game-btn" onclick="resetGame()">New game</button>
+    </div>
+    <script src="index.js"></script>
+</body>
+
 </html>
